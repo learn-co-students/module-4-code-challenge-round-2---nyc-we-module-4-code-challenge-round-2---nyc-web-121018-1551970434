@@ -10,7 +10,7 @@ class App extends Component {
         <div className="ui segment violet inverted">
           <h2>The Royal Bank of Flatiron</h2>
         </div>
-        
+
         <AccountContainer />
 
       </div>
@@ -19,3 +19,13 @@ class App extends Component {
 }
 
 export default App
+
+
+
+      //         APP
+      //         |
+      //     AccountContainer
+      //     /           \
+      // Search        TransactionsList
+      //                     \
+      //                   Transaction
